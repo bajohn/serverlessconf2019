@@ -13,7 +13,7 @@ const request_3 = require('./32-monroe-st.json');
 const smo_code_lookup = {
      "streetcleaning": ["PS-154B", "Street Cleaning","When are the streets sweeped"], 
      "paidparking": [["PS-9A"], "", "Metered Parking"],
-     "loadingzone": [["PS-279C", "PS-153E"], ""]
+     "loadingzone": [["PS-279C", "PS-153E"], "", "Other Curb Side"]
 }
 
 function aggregate_results (payload) {
@@ -44,15 +44,19 @@ function answer_parking(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['paidparking'][2]
 
-        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+        // return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_subtype == smo_code) 
+        }
     })
-    answer = res.filter(a=>a[1].length > 0)
+    answer = res.filter(a=>a.rules.length > 0)
     return { 
-        "answer": answer_parking_formatter(answer[0][1][1]),
+        "answer": answer_parking_formatter(answer[0].rules[1]),
         "results": answer 
     }
 }
-
+////////////// Street 
 function answer_streetcleaning(summary) {
     // Thin Wrap the result into an answer 
     res = Object.entries(summary).map((val, index)=>{
@@ -64,6 +68,10 @@ function answer_streetcleaning(summary) {
         x = val[0]['properties']
         return signs.filter(a=>a.properties.smo_code == smo_code)
         return signs.map(a=>a.properties.sign_description)
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_code == smo_code) 
+        }
     })
     answer = res.flat()
 
@@ -80,17 +88,49 @@ function answer_streetcleaning(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['streetcleaning'][0]
 
-        return [key, signs.filter(a=>a.properties.smo_code == smo_code)]
+        // return [key, signs.filter(a=>a.properties.smo_code == smo_code)]
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_code == smo_code) 
+        }
     })
-    answer = res.filter(a=>a[1].length > 0)
+    answer = res.filter(a=>a.rules.length > 0)
     return { 
-        "answer": answer_streetcleaningformatter(answer[0][1][1]),
+        "answer": answer_streetcleaningformatter(answer[0].rules[1]),
         "results": answer 
     }
 }
 function answer_streetcleaningformatter(r) {
     return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
 }
+//// 
+
+function answer_loadingzone_formatter(r) {
+
+    return `The nearest loadingzone is at ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
+
+}
+
+function answer_loadingzone(summary) {
+    // Thin Wrap the result into an answer 
+    res = Object.entries(summary).map((val, index)=>{
+        let key = val[0]
+        let signs = val[1]
+        const smo_code = smo_code_lookup['loadingzone'][2]
+
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_subtype == smo_code) 
+        }
+    })
+    answer = res.filter(a=>a.rules.length > 0)
+    return { 
+        "answer": answer_loadingzone_formatter(answer[0].rules[1]),
+        "results": answer 
+    }
+}
+
+
 
 function main(res, address, question) {
 
@@ -101,24 +141,34 @@ function main(res, address, question) {
     */
 
     // ** Q1 
-    // const result = aggregate_results(request_1)
-    // let response = {
-    //     'address': "address",
-    //     "question": "question",
-    //     "result": answer_parking(result)
-    // }
-    // response = answer_parking(result)
+    const result = aggregate_results(request_1)
+    let response = {
+        'address': "address",
+        "question": "question",
+        "result": answer_parking(result)
+    }
+    response = answer_parking(result)
     // ** Q1 END
 
 
     // ** Q2
-    const result = aggregate_results(request_2)
-    let response = {
-        'address': "address",
-        "question": "question",
-        "result": answer_streetcleaning(result)
-    }
-    response = answer_streetcleaning(result)
+    // const result = aggregate_results(request_2)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_streetcleaning(result)
+    // }
+    // response = answer_streetcleaning(result)
+
+
+    // ** Q3
+    // const result = aggregate_results(request_2)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_loadingzone(result)
+    // }
+    // response = answer_loadingzone(result)
 
     return response
 
@@ -126,5 +176,5 @@ function main(res, address, question) {
 
 console.log(main())
 
-console.log(JSON.stringify(main({}, "400 broadway st", 0),   null, 2))
+// console.log(JSON.stringify(main({}, "400 broadway st", 0),   null, 2))
 
