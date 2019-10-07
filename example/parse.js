@@ -44,8 +44,8 @@ function answer_parking(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['paidparking'][2]
 
-        
-        x = val[0]['properties']
+        console.log(signs)
+        // x = val[0]['properties']
         return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
     })
     answer = res.filter(a=>a[1].length > 0)
@@ -90,18 +90,32 @@ function main(res, address, question) {
     Address = @String from Google
     Question = ENUM of question types 
     */
+
+    // ** Q1 
     const result = aggregate_results(request_1)
+    let response = {
+        'address': "address",
+        "question": "question",
+        "result": answer_parking(result)
+    }
+    response = answer_parking(result)
+    // ** Q1 END
 
-    result['address'] = address
-    return answer_parking(result)
 
+    // ** Q2
     // const result = aggregate_results(request_2)
-    // return answer_streetcleaning(result)
-    
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_streetcleaning(result)
+    // }
+    // response = answer_streetcleaning(result)
+
+    return response
 
 } 
 
-// console.log(main())
+console.log(main())
 
-console.log(JSON.stringify(main(address, res, question),   null, 2))
+// console.log(JSON.stringify(main({}, "85 Broad St FL 30", 0),   null, 2))
 
