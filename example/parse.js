@@ -12,7 +12,8 @@ const request_3 = require('./32-monroe-st.json');
 // question, Name, Subtype, Description / Copy
 const smo_code_lookup = {
      "streetcleaning": ["PS-154B", "Street Cleaning","When are the streets sweeped"], 
-     "paidparking": ["PS-9A", "", "Paid parking "]
+     "paidparking": [["PS-9A"], "", "Metered Parking"],
+     "loadingzone": [["PS-279C", "PS-153E"], ""]
 }
 
 function aggregate_results (payload) {
@@ -41,18 +42,16 @@ function answer_parking(summary) {
     res = Object.entries(summary).map((val, index)=>{
         let key = val[0]
         let signs = val[1]
-        const smo_code = smo_code_lookup['paidparking'][0]
+        const smo_code = smo_code_lookup['paidparking'][2]
 
         
         x = val[0]['properties']
-        return signs.filter(a=>a.properties.smo_code == smo_code)
-        // return x
-        return signs.map(a=>a.properties.sign_description)
+        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
     })
-    answer = res.flat()
-
+    answer = res.filter(a=>a[1].length > 0)
+    console.log("answer", answer[0][1][1])
     return { 
-        "answer": answer_parking_formatter(answer[0]),
+        "answer": answer_parking_formatter(answer[0][1][1]),
         "results": answer 
     }
 }
@@ -73,29 +72,27 @@ function answer_streetcleaning(summary) {
     answer = res.flat()
 
     return { 
-        "answer": answer_parking_formatter(answer[0]),
+        "answer": answer_streetcleaning(answer[0]),
         "results": answer 
     }
 }
 
-function answer_parking_formatter(r) {
+function answer_streetcleaning(r) {
 
     return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
 
 }
 
 function main() {
-    // const result = aggregate_results(request_1)
-    // return answer_parking(result)
+    const result = aggregate_results(request_1)
+    return answer_parking(result)
 
-    const result = aggregate_results(request_2)
-    return answer_streetcleaning(result)
+    // const result = aggregate_results(request_2)
+    // return answer_streetcleaning(result)
 
 } 
 
 console.log(main())
-// console.log(JSON.stringify(main(),   null, 2))
-
 
 console.log(JSON.stringify(main(),   null, 2))
 
