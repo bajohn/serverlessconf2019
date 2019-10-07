@@ -2,12 +2,34 @@ Authorization: Basic cHVibGljOkQwdFB1NmwxY0BwMQ==
 
 https://nycdotsigns.net/-74.01105380000001:40.7079934/parking,21/182
 
+
+General Aggregation in Node.js
+
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+
+- Map over these attributes in Queries
+- aggregate queries by SMO_code
+- filter by SMO_code based on question
+- return result back result
+
+
+
+
+
 Questions
 ---
-What is the street sweeping schedule for {x}? 
+Q: My Car is parked at X -- Give me the information about X place
 
 
-Where can I paid parking?
+Q: What is the street sweeping schedule for {x}? 
+
+look for `smo_code` on "smo_subtype":"Street Cleaning", rules involved are "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+
+
+
+Q: Where can I paid parking?
 
 - Query on `smo_code` "PS-9A" and then list the closest ones by intersection 
 
@@ -16,8 +38,8 @@ Where can I paid parking?
                 "to_street": "BROAD STREET",
 - Your closest to X location is "{on_street}" between "{from_street}" and "to{street}} - Alternatives in include the below [Paginated set of results form this page]
 
-Where are there loading zones for driver? 
-- Query on "{PS-279C}" are commercial zones for drivers to load their vehicles in this are. Alternatives include in the below [Paginated set of results form this page]
+Q: Where are there loading zones for driver? 
+- Query on "{PS-279C}" and "PS-153E" are commercial zones for drivers to load their vehicles in this are. Alternatives include in the below [Paginated set of results form this page]
 
         {
             "type": "Feature",
@@ -44,6 +66,9 @@ Where are there loading zones for driver?
                 "notes": null
             },
 
+
+Q: Where can I find free parking around X
+ (question is find streets around you and keep going until you find street with only sweep information)'
 
 
 
