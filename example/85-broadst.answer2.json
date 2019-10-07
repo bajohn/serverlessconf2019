@@ -1,0 +1,340 @@
+{
+  "answer": "The nearest parking is at PEARL STREET between the intersection of COENTIES SLIP and BROAD STREET",
+  "results": [
+    [
+      "PEARL-STREET_COENTIES-SLIP_BROAD-STREET",
+      [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 10250965,
+            "order_number": "P-01262415",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "COENTIES SLIP",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-279C",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY 7AM-5PM EXCEPT SUNDAY <-> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 199,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2017-08-17",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01138618100886,
+              40.70358317051474
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 10250961,
+            "order_number": "P-01262415",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "COENTIES SLIP",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-279C",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY 7AM-5PM EXCEPT SUNDAY <-> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 64,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2017-08-23",
+            "notes": ""
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01086144579222,
+              40.70363851083938
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 10250962,
+            "order_number": "P-01262415",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "COENTIES SLIP",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-9A",
+            "sign_description": "ZONE#100045 PAY BY CELL LOCATOR",
+            "size_description": "018 X 006",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 64,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2017-08-23",
+            "notes": "100045"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01091011678606,
+              40.70366281481003
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 10250966,
+            "order_number": "P-01262415",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "COENTIES SLIP",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-9A",
+            "sign_description": "ZONE#100045 PAY BY CELL LOCATOR",
+            "size_description": "018 X 006",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 199,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2017-08-17",
+            "notes": "100045"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01138618100886,
+              40.70358317051474
+            ]
+          }
+        }
+      ]
+    ],
+    [
+      "PEARL-STREET_HANOVER-SQUARE_COENTIES-SLIP",
+      [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 515911,
+            "order_number": "P-373573",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "COENTIES SLIP",
+            "smo_code": "PS-289C",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 385,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2015-09-11",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.0105530814507,
+              40.70380832064427
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 515909,
+            "order_number": "P-373573",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "COENTIES SLIP",
+            "smo_code": "PS-289C",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 277,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2015-09-11",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01026818633001,
+              40.70400871425403
+            ]
+          }
+        }
+      ]
+    ],
+    [
+      "PEARL-STREET_HANOVER-SQUARE_BROAD-STREET",
+      [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 95618,
+            "order_number": "P-550997",
+            "sos": "W",
+            "sos_new": [
+              "W",
+              "West side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-9A",
+            "sign_description": "ZONE#115966 PAY BY CELL LOCATOR",
+            "size_description": "018 X 006",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 480,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2018-06-27",
+            "notes": "115966"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.0108740511801,
+              40.70366830775295
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 95619,
+            "order_number": "P-550997",
+            "sos": "W",
+            "sos_new": [
+              "W",
+              "West side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-269C",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY 7AM-7PM EXCEPT SUNDAY <-> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 636,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2018-06-27",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01138255608552,
+              40.70347612503428
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 95617,
+            "order_number": "P-550997",
+            "sos": "W",
+            "sos_new": [
+              "W",
+              "West side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-269CA",
+            "sign_description": "3 HMP COMMERCIAL VEHICLES ONLY 7AM-7PM EXCEPT SUNDAY --> ",
+            "size_description": "018 X 024",
+            "facing_direction_type": null,
+            "arrow_points": "South",
+            "distance_from_intersection": 480,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2018-06-27",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.0108740511801,
+              40.70366830775295
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 95620,
+            "order_number": "P-550997",
+            "sos": "W",
+            "sos_new": [
+              "W",
+              "West side"
+            ],
+            "on_street": "PEARL STREET",
+            "from_street": "HANOVER SQUARE",
+            "to_street": "BROAD STREET",
+            "smo_code": "PS-9A",
+            "sign_description": "ZONE#115966 PAY BY CELL LOCATOR",
+            "size_description": "018 X 006",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 636,
+            "smo_category": "parking",
+            "smo_subtype": "Metered Parking",
+            "last_work_date": "2018-06-27",
+            "notes": "115966"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.01138255608552,
+              40.70347612503428
+            ]
+          }
+        }
+      ]
+    ]
+  ]
+}

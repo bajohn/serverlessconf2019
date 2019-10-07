@@ -44,12 +44,10 @@ function answer_parking(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['paidparking'][2]
 
-        console.log(signs)
         // x = val[0]['properties']
         return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
     })
     answer = res.filter(a=>a[1].length > 0)
-    console.log("answer", answer[0][1][1])
     return { 
         "answer": answer_parking_formatter(answer[0][1][1]),
         "results": answer 
@@ -115,7 +113,7 @@ function main(res, address, question) {
 
 } 
 
-console.log(main())
+// console.log(main())
 
-// console.log(JSON.stringify(main({}, "85 Broad St FL 30", 0),   null, 2))
+console.log(JSON.stringify(main({}, "85 Broad St FL 30", 0),   null, 2))
 
