@@ -29,8 +29,20 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    // sample query param
+    //?address=1600 pennsylvania ave washington dc, 20001&parkoption=park
     this.router.queryParams.subscribe((query) => {
       console.log('QUERY', query);
+      if ('address' in query) {
+        this.address = query['address'];
+      }
+      if ('parkoption' in query) {
+        this.curParkOption = query['parkoption'];
+      }
+
+      if (this.address.length > 0 && this.curParkOption.length > 0) {
+        this.search();
+      }
     });
   }
 }

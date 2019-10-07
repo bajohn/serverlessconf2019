@@ -1,7 +1,9 @@
 # NYC Street Sense 
 
-Icons made by "https://www.flaticon.com/authors/freepik"
 
+## Notes
+
+Icons made by "https://www.flaticon.com/authors/freepik"
 
 Sample query string to angular app (query string for deep link):
 

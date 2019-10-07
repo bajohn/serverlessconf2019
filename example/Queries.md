@@ -1,3 +1,8 @@
+Query string for angular- autofills and submits form repeatably:
+
+ourappurl.com?address=1600 pennsylvania ave washington dc, 20001&parkoption=park
+
+
 Authorization: Basic cHVibGljOkQwdFB1NmwxY0BwMQ==
 
 https://nycdotsigns.net/-74.01105380000001:40.7079934/parking,21/182
