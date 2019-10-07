@@ -9,6 +9,11 @@ const request_3 = require('./32-monroe-st.json');
 // console.log(request_1['features'][0])
 
 
+// question, Name, Description / Copy
+const smo_code_lookup = {
+     "streetcleaning": ["Street Cleaning", "When are the streets sweeped"], 
+     "paidparking": ["PS-9A", "Paid parking "]
+}
 
 function aggregate_results (payload) {
     const features = payload['features']
@@ -32,16 +37,16 @@ function answer_parking(summary) {
     res = Object.entries(summary).map((val, index)=>{
         let key = val[0]
         let signs = val[1]
+        const smo_code = smo_code_lookup['paidparking'][0]
 
         
         x = val[0]['properties']
-        
+        return signs.filter(a=>a.properties.smo_code == smo_code)
         // return x
         return signs.map(a=>a.properties.sign_description)
     })
-    return res
+    return res.flat()
 }
-
 
 function main() {
 
