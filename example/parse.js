@@ -45,7 +45,7 @@ function answer_parking(summary) {
         // return x
         return signs.map(a=>a.properties.sign_description)
     })
-    return res.flat()
+    return res.toString();
 }
 
 function main() {
