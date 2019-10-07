@@ -83,16 +83,25 @@ function answer_streetcleaning(r) {
 
 }
 
-function main() {
+function main(res, address, question) {
+
+    /*
+    Res = @JSON proxy from nycdot.net
+    Address = @String from Google
+    Question = ENUM of question types 
+    */
     const result = aggregate_results(request_1)
+
+    result['address'] = address
     return answer_parking(result)
 
     // const result = aggregate_results(request_2)
     // return answer_streetcleaning(result)
+    
 
 } 
 
 // console.log(main())
 
-console.log(JSON.stringify(main(),   null, 2))
+console.log(JSON.stringify(main(address, res, question),   null, 2))
 
