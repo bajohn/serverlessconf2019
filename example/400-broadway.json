@@ -1,1 +1,2022 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"id":275572,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-154B","sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":67,"smo_category":"parking","smo_subtype":"Street Cleaning","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00199854855063,40.7191520078827]}},{"type":"Feature","properties":{"id":284530,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-154B","sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":272,"smo_category":"parking","smo_subtype":"Street Cleaning","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00239896276538,40.71867990159858]}},{"type":"Feature","properties":{"id":275573,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":67,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00199854855063,40.7191520078827]}},{"type":"Feature","properties":{"id":275574,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-154B","sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":139,"smo_category":"parking","smo_subtype":"Street Cleaning","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.0021392352225,40.71898457502741]}},{"type":"Feature","properties":{"id":284531,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":272,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00239896276538,40.71867990159858]}},{"type":"Feature","properties":{"id":284529,"order_number":"S-385010","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":139,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.0021392352225,40.71898457502741]}},{"type":"Feature","properties":{"id":284532,"order_number":"S-385011","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"PS-154B","sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":15,"smo_category":"parking","smo_subtype":"Street Cleaning","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00252161089301,40.71853168195749]}},{"type":"Feature","properties":{"id":284533,"order_number":"S-385011","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":15,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00252161089301,40.71853168195749]}},{"type":"Feature","properties":{"id":284534,"order_number":"S-385011","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"PS-154B","sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":111,"smo_category":"parking","smo_subtype":"Street Cleaning","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00270918950437,40.71830935216055]}},{"type":"Feature","properties":{"id":284535,"order_number":"S-385011","sos":"E","sos_new":["E","East side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":111,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-29","notes":null},"geometry":{"type":"Point","coordinates":[-74.00270918950437,40.71830935216055]}},{"type":"Feature","properties":{"id":815643,"order_number":"P-386309","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"SP-383BA","sign_description":"NO STANDING ANYTIME W/SINGLE ARROW HARD HAT (SYMBOL) TEMPORARY CONSTRUCTION REGULATION (FUTURE PHONE)","size_description":"018 X 016","facing_direction_type":null,"arrow_points":"West","distance_from_intersection":95,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2014-09-17","notes":null},"geometry":{"type":"Point","coordinates":[-74.00222940402597,40.7184411109174]}},{"type":"Feature","properties":{"id":815644,"order_number":"P-386309","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"SP-383B","sign_description":"NO STANDING ANYTIME <---> HARD HAT (SYMBOL) TEMPORARY CONSTRUCTION REGULATION (FUTURE PHONE)","size_description":"018 X 016","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":194,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2014-09-17","notes":null},"geometry":{"type":"Point","coordinates":[-74.00191915938461,40.71830387852121]}},{"type":"Feature","properties":{"id":61564,"order_number":"S-425648","sos":"N","sos_new":["N","North side"],"on_street":"WHITE STREET","from_street":"BROADWAY","to_street":"CHURCH STREET","smo_code":"PS-209E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 9AM-6PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":64,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2018-01-08","notes":null},"geometry":{"type":"Point","coordinates":[-74.0032863739827,40.71818033342262]}},{"type":"Feature","properties":{"id":11102769,"order_number":"P-01346644","sos":"N","sos_new":["N","North side"],"on_street":"CANAL STREET","from_street":"LAFAYETTE STREET","to_street":"BROADWAY","smo_code":"PS-9A","sign_description":"ZONE#104984 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":384,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":null,"notes":"104984"},"geometry":{"type":"Point","coordinates":[-74.001525969901,40.71925357121449]}},{"type":"Feature","properties":{"id":11102768,"order_number":"P-01346644","sos":"N","sos_new":["N","North side"],"on_street":"CANAL STREET","from_street":"LAFAYETTE STREET","to_street":"BROADWAY","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":384,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.001525969901,40.71925357121449]}},{"type":"Feature","properties":{"id":11102767,"order_number":"P-01346644","sos":"N","sos_new":["N","North side"],"on_street":"CANAL STREET","from_street":"LAFAYETTE STREET","to_street":"BROADWAY","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":230,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.00111831825953,40.7189653761541]}},{"type":"Feature","properties":{"id":11102766,"order_number":"P-01346644","sos":"N","sos_new":["N","North side"],"on_street":"CANAL STREET","from_street":"LAFAYETTE STREET","to_street":"BROADWAY","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":125,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.0008405399761,40.71877050059024]}},{"type":"Feature","properties":{"id":264862,"order_number":"S-382497","sos":"S","sos_new":["S","South side"],"on_street":"LISPENARD STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-15G","sign_description":"NO PARKING MONDAY-FRIDAY 8AM-6PM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":511,"smo_category":"parking","smo_subtype":"No Parking (Non-ASP)","last_work_date":"2016-04-08","notes":null},"geometry":{"type":"Point","coordinates":[-74.00230879502148,40.71922336582399]}},{"type":"Feature","properties":{"id":265448,"order_number":"S-382548","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-7G","sign_description":"NO STANDING MONDAY-FRIDAY 4PM-7PM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":469,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2016-04-18","notes":null},"geometry":{"type":"Point","coordinates":[-74.0028174336718,40.71880340629957]}},{"type":"Feature","properties":{"id":265445,"order_number":"S-382548","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-150E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-4PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":346,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-11-28","notes":null},"geometry":{"type":"Point","coordinates":[-74.00319983387116,40.71897906091626]}},{"type":"Feature","properties":{"id":265447,"order_number":"S-382548","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-150E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-4PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":469,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-18","notes":null},"geometry":{"type":"Point","coordinates":[-74.0028174336718,40.71880340629957]}},{"type":"Feature","properties":{"id":265446,"order_number":"S-382548","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-7G","sign_description":"NO STANDING MONDAY-FRIDAY 4PM-7PM <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":346,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2016-11-28","notes":null},"geometry":{"type":"Point","coordinates":[-74.00319983387116,40.71897906091626]}},{"type":"Feature","properties":{"id":265450,"order_number":"S-382549","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":270,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2015-01-13","notes":null},"geometry":{"type":"Point","coordinates":[-74.00348843405831,40.7190147344068]}},{"type":"Feature","properties":{"id":265451,"order_number":"S-382549","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"CHURCH STREET","to_street":"BROADWAY","smo_code":"PS-153E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":460,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2015-01-13","notes":null},"geometry":{"type":"Point","coordinates":[-74.00290040296166,40.71874576428829]}},{"type":"Feature","properties":{"id":419113,"order_number":"S-552660","sos":"W","sos_new":["W","West side"],"on_street":"CORTLANDT ALLEY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-37E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":195,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2017-06-27","notes":null},"geometry":{"type":"Point","coordinates":[-74.00176043691916,40.71849326947745]}},{"type":"Feature","properties":{"id":419112,"order_number":"S-552660","sos":"W","sos_new":["W","West side"],"on_street":"CORTLANDT ALLEY","from_street":"CANAL STREET","to_street":"WALKER STREET","smo_code":"PS-37E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":43,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2017-06-27","notes":null},"geometry":{"type":"Point","coordinates":[-74.00146102598625,40.71884185813667]}},{"type":"Feature","properties":{"id":316082,"order_number":"P-506790","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":30,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.00183982194213,40.71925631138623]}},{"type":"Feature","properties":{"id":316083,"order_number":"P-506790","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-9A","sign_description":"ZONE#102774 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":30,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":null,"notes":"102774"},"geometry":{"type":"Point","coordinates":[-74.00183982194213,40.71925631138623]}},{"type":"Feature","properties":{"id":316085,"order_number":"P-506790","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-9A","sign_description":"ZONE#102774 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":172,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":null,"notes":"102774"},"geometry":{"type":"Point","coordinates":[-74.00146824419454,40.71899007505876]}},{"type":"Feature","properties":{"id":316084,"order_number":"P-506790","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":172,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.00146824419454,40.71899007505876]}},{"type":"Feature","properties":{"id":316071,"order_number":"P-506787","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-9A","sign_description":"ZONE#102632 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":33,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":null,"notes":"102632"},"geometry":{"type":"Point","coordinates":[-74.00122653977854,40.71881166851851]}},{"type":"Feature","properties":{"id":316070,"order_number":"P-506787","sos":"S","sos_new":["S","South side"],"on_street":"CANAL STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-123F","sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ","size_description":"018 X 054","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":33,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-08-05","notes":null},"geometry":{"type":"Point","coordinates":[-74.00122653977854,40.71881166851851]}},{"type":"Feature","properties":{"id":705205,"order_number":"S-451123","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"LISPENARD STREET","to_street":"WALKER STREET","smo_code":"SP-477B","sign_description":"BUS STOP SIGN(NO STANDING)","size_description":"20\" DIA.","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":68,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2010-09-30","notes":null},"geometry":{"type":"Point","coordinates":[-74.0023160022802,40.71900104016414]}},{"type":"Feature","properties":{"id":705209,"order_number":"S-451123","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"LISPENARD STREET","to_street":"WALKER STREET","smo_code":"SI-584G","sign_description":"Located At: BROADWAY & WALKER ST","size_description":"016 X 008","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":180,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2010-09-30","notes":"BROADWAY & WALKER ST"},"geometry":{"type":"Point","coordinates":[-74.00253604875404,40.71874302813114]}},{"type":"Feature","properties":{"id":705207,"order_number":"S-451123","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"LISPENARD STREET","to_street":"WALKER STREET","smo_code":"SI-581G","sign_description":"ROUTE-DESTINATION: M55 - SOUTH FERRY","size_description":"32.24 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":180,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2016-12-27","notes":"M55 - SOUTH FERRY"},"geometry":{"type":"Point","coordinates":[-74.00253604875404,40.71874302813114]}},{"type":"Feature","properties":{"id":705208,"order_number":"S-451123","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"LISPENARD STREET","to_street":"WALKER STREET","smo_code":"SI-1720G","sign_description":"Private BusLine: GRAY LINE NEW YORK TOURS, INC. - PICK UP/DROP OFF ONLY","size_description":"32.24 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":180,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2016-11-21","notes":"GRAY LINE NEW YORK TOURS, INC. - PICK UP/DROP OFF ONLY"},"geometry":{"type":"Point","coordinates":[-74.00253604875404,40.71874302813114]}},{"type":"Feature","properties":{"id":705206,"order_number":"S-451123","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"LISPENARD STREET","to_street":"WALKER STREET","smo_code":"SP-477B","sign_description":"BUS STOP SIGN(NO STANDING)","size_description":"20\" DIA.","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":180,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2010-09-30","notes":"405266"},"geometry":{"type":"Point","coordinates":[-74.00253604875404,40.71874302813114]}},{"type":"Feature","properties":{"id":419110,"order_number":"S-552640","sos":"E","sos_new":["E","East side"],"on_street":"CORTLANDT ALLEY","from_street":"WALKER STREET","to_street":"CANAL STREET","smo_code":"PS-1G","sign_description":"NO STANDING ANYTIME <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":30,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2017-10-04","notes":null},"geometry":{"type":"Point","coordinates":[-74.00167024819415,40.71839720423203]}},{"type":"Feature","properties":{"id":419111,"order_number":"S-552640","sos":"E","sos_new":["E","East side"],"on_street":"CORTLANDT ALLEY","from_street":"WALKER STREET","to_street":"CANAL STREET","smo_code":"PS-1G","sign_description":"NO STANDING ANYTIME <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":200,"smo_category":"parking","smo_subtype":"No Standing","last_work_date":"2017-10-04","notes":null},"geometry":{"type":"Point","coordinates":[-74.00133476343687,40.71878970923819]}},{"type":"Feature","properties":{"id":10396353,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-221EA","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-7PM --> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":"East","distance_from_intersection":120,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-19","notes":null},"geometry":{"type":"Point","coordinates":[-74.00209953686789,40.71847405047518]}},{"type":"Feature","properties":{"id":10396357,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-9A","sign_description":"ZONE#102772 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":190,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-11-16","notes":"102772"},"geometry":{"type":"Point","coordinates":[-74.00187947953007,40.71837524292878]}},{"type":"Feature","properties":{"id":10396354,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-127CA","sign_description":"2 HMP SATURDAY 8AM-7PM -->","size_description":"018 X 018","facing_direction_type":null,"arrow_points":"East","distance_from_intersection":120,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-11-16","notes":null},"geometry":{"type":"Point","coordinates":[-74.00209953686789,40.71847405047518]}},{"type":"Feature","properties":{"id":10396352,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-9A","sign_description":"ZONE#102772 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":71,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-11-16","notes":"102772"},"geometry":{"type":"Point","coordinates":[-74.00225105215527,40.7185426666041]}},{"type":"Feature","properties":{"id":10396351,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-65C","sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":71,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-11-16","notes":null},"geometry":{"type":"Point","coordinates":[-74.00225105215527,40.7185426666041]}},{"type":"Feature","properties":{"id":10396355,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-221E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-7PM <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":190,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-19","notes":null},"geometry":{"type":"Point","coordinates":[-74.00187947953007,40.71837524292878]}},{"type":"Feature","properties":{"id":10396356,"order_number":"P-01277434","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"BROADWAY","to_street":"CORTLANDT ALLEY","smo_code":"PS-127C","sign_description":"2 HMP SATURDAY 8AM-7PM <->","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":190,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2017-11-16","notes":null},"geometry":{"type":"Point","coordinates":[-74.00187947953007,40.71837524292878]}},{"type":"Feature","properties":{"id":407150,"order_number":"P-341171","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-65C","sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":16,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2014-08-04","notes":null},"geometry":{"type":"Point","coordinates":[-74.00171353509432,40.71830113700552]}},{"type":"Feature","properties":{"id":407151,"order_number":"P-341171","sos":"N","sos_new":["N","North side"],"on_street":"WALKER STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-65C","sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":101,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2014-08-04","notes":null},"geometry":{"type":"Point","coordinates":[-74.00144658180224,40.71818311599936]}},{"type":"Feature","properties":{"id":11267136,"order_number":"P-01362900","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-65C","sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ","size_description":"018 X 018","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":102,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2019-05-06","notes":""},"geometry":{"type":"Point","coordinates":[-74.00151563020806,40.71816715578186]}},{"type":"Feature","properties":{"id":11267145,"order_number":"P-01362900","sos":"S","sos_new":["S","South side"],"on_street":"WALKER STREET","from_street":"CORTLANDT ALLEY","to_street":"LAFAYETTE STREET","smo_code":"PS-9A","sign_description":"ZONE#105215 PAY BY CELL LOCATOR","size_description":"018 X 006","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":102,"smo_category":"parking","smo_subtype":"Metered Parking","last_work_date":"2019-06-11","notes":"105215"},"geometry":{"type":"Point","coordinates":[-74.00151563020806,40.71816715578186]}},{"type":"Feature","properties":{"id":10857062,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1890G","sign_description":"ROUTE: EXPERIENCE THE RIDE NY, LLC","size_description":"14.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-07-11","notes":"EXPERIENCE THE RIDE NY, LLC"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":10857074,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1891G","sign_description":"DESTINATION: PICK UP/DROP OFF ONLY","size_description":"18.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":196,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"PICK UP/DROP OFF ONLY"},"geometry":{"type":"Point","coordinates":[-74.0030158160521,40.71817485130825]}},{"type":"Feature","properties":{"id":10857075,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-584G","sign_description":"Located At: BROADWAY & WHITE ST","size_description":"016 X 008","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":196,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"BROADWAY & WHITE ST"},"geometry":{"type":"Point","coordinates":[-74.0030158160521,40.71817485130825]}},{"type":"Feature","properties":{"id":10857073,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1890G","sign_description":"ROUTE: TOPVIEW SIGHTSEEING","size_description":"14.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":196,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2018-10-10","notes":"TOPVIEW SIGHTSEEING"},"geometry":{"type":"Point","coordinates":[-74.0030158160521,40.71817485130825]}},{"type":"Feature","properties":{"id":10857057,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SP-477B","sign_description":"BUS STOP SIGN(NO STANDING)","size_description":"20\" DIA.","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":null,"notes":"405218"},"geometry":{"type":"Point","coordinates":[-74.00274754680221,40.71838029524141]}},{"type":"Feature","properties":{"id":10857058,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1880G","sign_description":"ROUTE: X27","size_description":"14.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"X27"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":10857059,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1881G","sign_description":"DESTINATION: BAY RIDGE","size_description":"18.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"BAY RIDGE"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":10857060,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1880G","sign_description":"ROUTE: X28","size_description":"14.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"X28"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":10857061,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1881G","sign_description":"DESTINATION: BENSONHURST/SEAGATE","size_description":"18.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-02-03","notes":"BENSONHURST/SEAGATE"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":10857064,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SP-477B","sign_description":"BUS STOP SIGN(NO STANDING)","size_description":"20\" DIA.","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":196,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2008-08-07","notes":"405276"},"geometry":{"type":"Point","coordinates":[-74.0030158160521,40.71817485130825]}},{"type":"Feature","properties":{"id":10857063,"order_number":"S-01322550","sos":"W","sos_new":["W","West side"],"on_street":"BROADWAY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"SI-1891G","sign_description":"DESTINATION: PICK UP/DROP OFF ONLY","size_description":"18.12 X 6","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":107,"smo_category":"parking","smo_subtype":"Bus Stop","last_work_date":"2017-07-11","notes":"PICK UP/DROP OFF ONLY"},"geometry":{"type":"Point","coordinates":[-74.00283906048311,40.71838071278414]}},{"type":"Feature","properties":{"id":593062,"order_number":"S-384519","sos":"W","sos_new":["W","West side"],"on_street":"CORTLANDT ALLEY","from_street":"WALKER STREET","to_street":"WHITE STREET","smo_code":"PS-37E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":45,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-04","notes":null},"geometry":{"type":"Point","coordinates":[-74.00200934263242,40.71821055515073]}},{"type":"Feature","properties":{"id":593065,"order_number":"S-384520","sos":"E","sos_new":["E","East side"],"on_street":"CORTLANDT ALLEY","from_street":"WHITE STREET","to_street":"WALKER STREET","smo_code":"PS-37E","sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ","size_description":"018 X 012","facing_direction_type":null,"arrow_points":null,"distance_from_intersection":215,"smo_category":"parking","smo_subtype":"Other Curb Side","last_work_date":"2016-04-04","notes":"INSTALL SIGN ON BUILDING WALL"},"geometry":{"type":"Point","coordinates":[-74.00185782949653,40.71818311009758]}}],"total":63}
+{ 
+   "type":"FeatureCollection",
+   "features":[ 
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":275572,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-154B",
+            "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":67,
+            "smo_category":"parking",
+            "smo_subtype":"Street Cleaning",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00199854855063,
+               40.7191520078827
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284530,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-154B",
+            "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":272,
+            "smo_category":"parking",
+            "smo_subtype":"Street Cleaning",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00239896276538,
+               40.71867990159858
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":275573,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":67,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00199854855063,
+               40.7191520078827
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":275574,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-154B",
+            "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":139,
+            "smo_category":"parking",
+            "smo_subtype":"Street Cleaning",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0021392352225,
+               40.71898457502741
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284531,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":272,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00239896276538,
+               40.71867990159858
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284529,
+            "order_number":"S-385010",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":139,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0021392352225,
+               40.71898457502741
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284532,
+            "order_number":"S-385011",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"PS-154B",
+            "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":15,
+            "smo_category":"parking",
+            "smo_subtype":"Street Cleaning",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00252161089301,
+               40.71853168195749
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284533,
+            "order_number":"S-385011",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":15,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00252161089301,
+               40.71853168195749
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284534,
+            "order_number":"S-385011",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"PS-154B",
+            "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":111,
+            "smo_category":"parking",
+            "smo_subtype":"Street Cleaning",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00270918950437,
+               40.71830935216055
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":284535,
+            "order_number":"S-385011",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":111,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-29",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00270918950437,
+               40.71830935216055
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":815643,
+            "order_number":"P-386309",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"SP-383BA",
+            "sign_description":"NO STANDING ANYTIME W/SINGLE ARROW HARD HAT (SYMBOL) TEMPORARY CONSTRUCTION REGULATION (FUTURE PHONE)",
+            "size_description":"018 X 016",
+            "facing_direction_type":null,
+            "arrow_points":"West",
+            "distance_from_intersection":95,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2014-09-17",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00222940402597,
+               40.7184411109174
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":815644,
+            "order_number":"P-386309",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"SP-383B",
+            "sign_description":"NO STANDING ANYTIME <---> HARD HAT (SYMBOL) TEMPORARY CONSTRUCTION REGULATION (FUTURE PHONE)",
+            "size_description":"018 X 016",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":194,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2014-09-17",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00191915938461,
+               40.71830387852121
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":61564,
+            "order_number":"S-425648",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WHITE STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CHURCH STREET",
+            "smo_code":"PS-209E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 9AM-6PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":64,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2018-01-08",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0032863739827,
+               40.71818033342262
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11102769,
+            "order_number":"P-01346644",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"LAFAYETTE STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#104984 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":384,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":null,
+            "notes":"104984"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.001525969901,
+               40.71925357121449
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11102768,
+            "order_number":"P-01346644",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"LAFAYETTE STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":384,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.001525969901,
+               40.71925357121449
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11102767,
+            "order_number":"P-01346644",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"LAFAYETTE STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":230,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00111831825953,
+               40.7189653761541
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11102766,
+            "order_number":"P-01346644",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"LAFAYETTE STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":125,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0008405399761,
+               40.71877050059024
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":264862,
+            "order_number":"S-382497",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"LISPENARD STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-15G",
+            "sign_description":"NO PARKING MONDAY-FRIDAY 8AM-6PM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":511,
+            "smo_category":"parking",
+            "smo_subtype":"No Parking (Non-ASP)",
+            "last_work_date":"2016-04-08",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00230879502148,
+               40.71922336582399
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265448,
+            "order_number":"S-382548",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-7G",
+            "sign_description":"NO STANDING MONDAY-FRIDAY 4PM-7PM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":469,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2016-04-18",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0028174336718,
+               40.71880340629957
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265445,
+            "order_number":"S-382548",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-150E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-4PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":346,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-11-28",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00319983387116,
+               40.71897906091626
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265447,
+            "order_number":"S-382548",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-150E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-4PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":469,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-18",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0028174336718,
+               40.71880340629957
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265446,
+            "order_number":"S-382548",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-7G",
+            "sign_description":"NO STANDING MONDAY-FRIDAY 4PM-7PM <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":346,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2016-11-28",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00319983387116,
+               40.71897906091626
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265450,
+            "order_number":"S-382549",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":270,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2015-01-13",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00348843405831,
+               40.7190147344068
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":265451,
+            "order_number":"S-382549",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CHURCH STREET",
+            "to_street":"BROADWAY",
+            "smo_code":"PS-153E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 7AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":460,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2015-01-13",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00290040296166,
+               40.71874576428829
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":419113,
+            "order_number":"S-552660",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-37E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":195,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2017-06-27",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00176043691916,
+               40.71849326947745
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":419112,
+            "order_number":"S-552660",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-37E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":43,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2017-06-27",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00146102598625,
+               40.71884185813667
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316082,
+            "order_number":"P-506790",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":30,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00183982194213,
+               40.71925631138623
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316083,
+            "order_number":"P-506790",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#102774 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":30,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":null,
+            "notes":"102774"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00183982194213,
+               40.71925631138623
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316085,
+            "order_number":"P-506790",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#102774 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":172,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":null,
+            "notes":"102774"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00146824419454,
+               40.71899007505876
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316084,
+            "order_number":"P-506790",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":172,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00146824419454,
+               40.71899007505876
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316071,
+            "order_number":"P-506787",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#102632 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":33,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":null,
+            "notes":"102632"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00122653977854,
+               40.71881166851851
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":316070,
+            "order_number":"P-506787",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"CANAL STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-123F",
+            "sign_description":"NO STANDING 7AM-10AM 4PM-7PM ALL DAYS <-> 3 HMP COMMERCIAL VEHICLES ONLY 10AM-4PM EXCEPT SUNDAY <-> 5 HMP 7PM-MIDNIGHT EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 054",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":33,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-08-05",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00122653977854,
+               40.71881166851851
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":705205,
+            "order_number":"S-451123",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"LISPENARD STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"SP-477B",
+            "sign_description":"BUS STOP SIGN(NO STANDING)",
+            "size_description":"20\" DIA.",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":68,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2010-09-30",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0023160022802,
+               40.71900104016414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":705209,
+            "order_number":"S-451123",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"LISPENARD STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"SI-584G",
+            "sign_description":"Located At: BROADWAY & WALKER ST",
+            "size_description":"016 X 008",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":180,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2010-09-30",
+            "notes":"BROADWAY & WALKER ST"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00253604875404,
+               40.71874302813114
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":705207,
+            "order_number":"S-451123",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"LISPENARD STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"SI-581G",
+            "sign_description":"ROUTE-DESTINATION: M55 - SOUTH FERRY",
+            "size_description":"32.24 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":180,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2016-12-27",
+            "notes":"M55 - SOUTH FERRY"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00253604875404,
+               40.71874302813114
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":705208,
+            "order_number":"S-451123",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"LISPENARD STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"SI-1720G",
+            "sign_description":"Private BusLine: GRAY LINE NEW YORK TOURS, INC. - PICK UP/DROP OFF ONLY",
+            "size_description":"32.24 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":180,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2016-11-21",
+            "notes":"GRAY LINE NEW YORK TOURS, INC. - PICK UP/DROP OFF ONLY"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00253604875404,
+               40.71874302813114
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":705206,
+            "order_number":"S-451123",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"LISPENARD STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"SP-477B",
+            "sign_description":"BUS STOP SIGN(NO STANDING)",
+            "size_description":"20\" DIA.",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":180,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2010-09-30",
+            "notes":"405266"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00253604875404,
+               40.71874302813114
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":419110,
+            "order_number":"S-552640",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"WALKER STREET",
+            "to_street":"CANAL STREET",
+            "smo_code":"PS-1G",
+            "sign_description":"NO STANDING ANYTIME <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":30,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2017-10-04",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00167024819415,
+               40.71839720423203
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":419111,
+            "order_number":"S-552640",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"WALKER STREET",
+            "to_street":"CANAL STREET",
+            "smo_code":"PS-1G",
+            "sign_description":"NO STANDING ANYTIME <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":200,
+            "smo_category":"parking",
+            "smo_subtype":"No Standing",
+            "last_work_date":"2017-10-04",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00133476343687,
+               40.71878970923819
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396353,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-221EA",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-7PM --> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":"East",
+            "distance_from_intersection":120,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-19",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00209953686789,
+               40.71847405047518
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396357,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#102772 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":190,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-11-16",
+            "notes":"102772"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00187947953007,
+               40.71837524292878
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396354,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-127CA",
+            "sign_description":"2 HMP SATURDAY 8AM-7PM -->",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":"East",
+            "distance_from_intersection":120,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-11-16",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00209953686789,
+               40.71847405047518
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396352,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#102772 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":71,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-11-16",
+            "notes":"102772"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00225105215527,
+               40.7185426666041
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396351,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-65C",
+            "sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":71,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-11-16",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00225105215527,
+               40.7185426666041
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396355,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-221E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY MONDAY-FRIDAY 8AM-7PM <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":190,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-19",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00187947953007,
+               40.71837524292878
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10396356,
+            "order_number":"P-01277434",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"BROADWAY",
+            "to_street":"CORTLANDT ALLEY",
+            "smo_code":"PS-127C",
+            "sign_description":"2 HMP SATURDAY 8AM-7PM <->",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":190,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2017-11-16",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00187947953007,
+               40.71837524292878
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":407150,
+            "order_number":"P-341171",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-65C",
+            "sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":16,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2014-08-04",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00171353509432,
+               40.71830113700552
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":407151,
+            "order_number":"P-341171",
+            "sos":"N",
+            "sos_new":[ 
+               "N",
+               "North side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-65C",
+            "sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":101,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2014-08-04",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00144658180224,
+               40.71818311599936
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11267136,
+            "order_number":"P-01362900",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-65C",
+            "sign_description":"2 HOUR METERED PARKING 8AM-7PM EXCEPT SUNDAY <-> ",
+            "size_description":"018 X 018",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":102,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2019-05-06",
+            "notes":""
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00151563020806,
+               40.71816715578186
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":11267145,
+            "order_number":"P-01362900",
+            "sos":"S",
+            "sos_new":[ 
+               "S",
+               "South side"
+            ],
+            "on_street":"WALKER STREET",
+            "from_street":"CORTLANDT ALLEY",
+            "to_street":"LAFAYETTE STREET",
+            "smo_code":"PS-9A",
+            "sign_description":"ZONE#105215 PAY BY CELL LOCATOR",
+            "size_description":"018 X 006",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":102,
+            "smo_category":"parking",
+            "smo_subtype":"Metered Parking",
+            "last_work_date":"2019-06-11",
+            "notes":"105215"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00151563020806,
+               40.71816715578186
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857062,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1890G",
+            "sign_description":"ROUTE: EXPERIENCE THE RIDE NY, LLC",
+            "size_description":"14.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-07-11",
+            "notes":"EXPERIENCE THE RIDE NY, LLC"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857074,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1891G",
+            "sign_description":"DESTINATION: PICK UP/DROP OFF ONLY",
+            "size_description":"18.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":196,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"PICK UP/DROP OFF ONLY"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0030158160521,
+               40.71817485130825
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857075,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-584G",
+            "sign_description":"Located At: BROADWAY & WHITE ST",
+            "size_description":"016 X 008",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":196,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"BROADWAY & WHITE ST"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0030158160521,
+               40.71817485130825
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857073,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1890G",
+            "sign_description":"ROUTE: TOPVIEW SIGHTSEEING",
+            "size_description":"14.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":196,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2018-10-10",
+            "notes":"TOPVIEW SIGHTSEEING"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0030158160521,
+               40.71817485130825
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857057,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SP-477B",
+            "sign_description":"BUS STOP SIGN(NO STANDING)",
+            "size_description":"20\" DIA.",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":null,
+            "notes":"405218"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00274754680221,
+               40.71838029524141
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857058,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1880G",
+            "sign_description":"ROUTE: X27",
+            "size_description":"14.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"X27"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857059,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1881G",
+            "sign_description":"DESTINATION: BAY RIDGE",
+            "size_description":"18.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"BAY RIDGE"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857060,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1880G",
+            "sign_description":"ROUTE: X28",
+            "size_description":"14.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"X28"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857061,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1881G",
+            "sign_description":"DESTINATION: BENSONHURST/SEAGATE",
+            "size_description":"18.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-02-03",
+            "notes":"BENSONHURST/SEAGATE"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857064,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SP-477B",
+            "sign_description":"BUS STOP SIGN(NO STANDING)",
+            "size_description":"20\" DIA.",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":196,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2008-08-07",
+            "notes":"405276"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.0030158160521,
+               40.71817485130825
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":10857063,
+            "order_number":"S-01322550",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"BROADWAY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"SI-1891G",
+            "sign_description":"DESTINATION: PICK UP/DROP OFF ONLY",
+            "size_description":"18.12 X 6",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":107,
+            "smo_category":"parking",
+            "smo_subtype":"Bus Stop",
+            "last_work_date":"2017-07-11",
+            "notes":"PICK UP/DROP OFF ONLY"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00283906048311,
+               40.71838071278414
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":593062,
+            "order_number":"S-384519",
+            "sos":"W",
+            "sos_new":[ 
+               "W",
+               "West side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"WALKER STREET",
+            "to_street":"WHITE STREET",
+            "smo_code":"PS-37E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":45,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-04",
+            "notes":null
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00200934263242,
+               40.71821055515073
+            ]
+         }
+      },
+      { 
+         "type":"Feature",
+         "properties":{ 
+            "id":593065,
+            "order_number":"S-384520",
+            "sos":"E",
+            "sos_new":[ 
+               "E",
+               "East side"
+            ],
+            "on_street":"CORTLANDT ALLEY",
+            "from_street":"WHITE STREET",
+            "to_street":"WALKER STREET",
+            "smo_code":"PS-37E",
+            "sign_description":"TRUCK (SYMBOL) TRUCK LOADING ONLY <-> ",
+            "size_description":"018 X 012",
+            "facing_direction_type":null,
+            "arrow_points":null,
+            "distance_from_intersection":215,
+            "smo_category":"parking",
+            "smo_subtype":"Other Curb Side",
+            "last_work_date":"2016-04-04",
+            "notes":"INSTALL SIGN ON BUILDING WALL"
+         },
+         "geometry":{ 
+            "type":"Point",
+            "coordinates":[ 
+               -74.00185782949653,
+               40.71818311009758
+            ]
+         }
+      }
+   ],
+   "total":63
+}
