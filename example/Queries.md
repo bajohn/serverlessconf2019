@@ -12,7 +12,10 @@ General Aggregation in Node.js
 - Map over these attributes in Queries
 - aggregate queries by SMO_code
 - filter by SMO_code based on question
-- return result back to it
+- return result back result
+
+
+
 
 
 Questions
