@@ -44,11 +44,15 @@ function answer_parking(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['paidparking'][2]
 
-        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+        // return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_subtype == smo_code) 
+        }
     })
-    answer = res.filter(a=>a[1].length > 0)
+    answer = res.filter(a=>a.rules.length > 0)
     return { 
-        "answer": answer_parking_formatter(answer[0][1][1]),
+        "answer": answer_parking_formatter(answer[0].rules[1]),
         "results": answer 
     }
 }
@@ -64,6 +68,10 @@ function answer_streetcleaning(summary) {
         x = val[0]['properties']
         return signs.filter(a=>a.properties.smo_code == smo_code)
         return signs.map(a=>a.properties.sign_description)
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_code == smo_code) 
+        }
     })
     answer = res.flat()
 
@@ -133,24 +141,24 @@ function main(res, address, question) {
     */
 
     // ** Q1 
-    // const result = aggregate_results(request_1)
-    // let response = {
-    //     'address': "address",
-    //     "question": "question",
-    //     "result": answer_parking(result)
-    // }
-    // response = answer_parking(result)
+    const result = aggregate_results(request_1)
+    let response = {
+        'address': "address",
+        "question": "question",
+        "result": answer_parking(result)
+    }
+    response = answer_parking(result)
     // ** Q1 END
 
 
     // ** Q2
-    const result = aggregate_results(request_2)
-    let response = {
-        'address': "address",
-        "question": "question",
-        "result": answer_streetcleaning(result)
-    }
-    response = answer_streetcleaning(result)
+    // const result = aggregate_results(request_2)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_streetcleaning(result)
+    // }
+    // response = answer_streetcleaning(result)
 
 
     // ** Q3
