@@ -78,8 +78,6 @@ function answer_streetcleaning(summary) {
     }
 }
 
-
-
 function answer_parking_formatter(r) {
 
     return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
@@ -97,4 +95,7 @@ function main() {
 
 console.log(main())
 // console.log(JSON.stringify(main(),   null, 2))
+
+
+console.log(JSON.stringify(main(),   null, 2))
 
