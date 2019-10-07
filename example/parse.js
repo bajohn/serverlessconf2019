@@ -13,7 +13,7 @@ const request_3 = require('./32-monroe-st.json');
 const smo_code_lookup = {
      "streetcleaning": ["PS-154B", "Street Cleaning","When are the streets sweeped"], 
      "paidparking": [["PS-9A"], "", "Metered Parking"],
-     "loadingzone": [["PS-279C", "PS-153E"], ""]
+     "loadingzone": [["PS-279C", "PS-153E"], "", "Other Curb Side"]
 }
 
 function aggregate_results (payload) {
@@ -52,7 +52,7 @@ function answer_parking(summary) {
         "results": answer 
     }
 }
-
+////////////// Street 
 function answer_streetcleaning(summary) {
     // Thin Wrap the result into an answer 
     res = Object.entries(summary).map((val, index)=>{
@@ -91,6 +91,31 @@ function answer_streetcleaning(summary) {
 function answer_streetcleaningformatter(r) {
     return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
 }
+//// 
+
+function answer_loadingzone_formatter(r) {
+
+    return `The nearest loadingzone is at ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
+
+}
+function answer_loadingzone(summary) {
+    // Thin Wrap the result into an answer 
+    res = Object.entries(summary).map((val, index)=>{
+        let key = val[0]
+        let signs = val[1]
+        const smo_code = smo_code_lookup['loadingzone'][2]
+        console.log(smo_code)
+
+        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+    })
+    answer = res.filter(a=>a[1].length > 0)
+    return { 
+        "answer": answer_loadingzone_formatter(answer[0][1][1]),
+        "results": answer 
+    }
+}
+
+
 
 function main(res, address, question) {
 
@@ -112,13 +137,23 @@ function main(res, address, question) {
 
 
     // ** Q2
+    // const result = aggregate_results(request_2)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_streetcleaning(result)
+    // }
+    // response = answer_streetcleaning(result)
+
+
+    // ** Q3
     const result = aggregate_results(request_2)
     let response = {
         'address': "address",
         "question": "question",
-        "result": answer_streetcleaning(result)
+        "result": answer_loadingzone(result)
     }
-    response = answer_streetcleaning(result)
+    response = answer_loadingzone(result)
 
     return response
 
@@ -126,5 +161,5 @@ function main(res, address, question) {
 
 console.log(main())
 
-console.log(JSON.stringify(main({}, "400 broadway st", 0),   null, 2))
+// console.log(JSON.stringify(main({}, "400 broadway st", 0),   null, 2))
 
