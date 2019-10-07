@@ -1,0 +1,182 @@
+{
+  answer: 'The street schedule is NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <->   BROADWAY between the intersection of CANAL STREET and WALKER STREET',
+  results: [
+    [ 'BROADWAY_CANAL-STREET_WALKER-STREET', [Array] ],
+    [ 'BROADWAY_WALKER-STREET_WHITE-STREET', [Array] ]
+  ]
+}
+{
+  "answer": "The street schedule is NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <->   BROADWAY between the intersection of CANAL STREET and WALKER STREET",
+  "results": [
+    [
+      "BROADWAY_CANAL-STREET_WALKER-STREET",
+      [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 275572,
+            "order_number": "S-385010",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "BROADWAY",
+            "from_street": "CANAL STREET",
+            "to_street": "WALKER STREET",
+            "smo_code": "PS-154B",
+            "sign_description": "NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description": "018 X 012",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 67,
+            "smo_category": "parking",
+            "smo_subtype": "Street Cleaning",
+            "last_work_date": "2016-04-29",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.00199854855063,
+              40.7191520078827
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 284530,
+            "order_number": "S-385010",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "BROADWAY",
+            "from_street": "CANAL STREET",
+            "to_street": "WALKER STREET",
+            "smo_code": "PS-154B",
+            "sign_description": "NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description": "018 X 012",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 272,
+            "smo_category": "parking",
+            "smo_subtype": "Street Cleaning",
+            "last_work_date": "2016-04-29",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.00239896276538,
+              40.71867990159858
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 275574,
+            "order_number": "S-385010",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "BROADWAY",
+            "from_street": "CANAL STREET",
+            "to_street": "WALKER STREET",
+            "smo_code": "PS-154B",
+            "sign_description": "NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description": "018 X 012",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 139,
+            "smo_category": "parking",
+            "smo_subtype": "Street Cleaning",
+            "last_work_date": "2016-04-29",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.0021392352225,
+              40.71898457502741
+            ]
+          }
+        }
+      ]
+    ],
+    [
+      "BROADWAY_WALKER-STREET_WHITE-STREET",
+      [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 284532,
+            "order_number": "S-385011",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "BROADWAY",
+            "from_street": "WALKER STREET",
+            "to_street": "WHITE STREET",
+            "smo_code": "PS-154B",
+            "sign_description": "NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description": "018 X 012",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 15,
+            "smo_category": "parking",
+            "smo_subtype": "Street Cleaning",
+            "last_work_date": "2016-04-29",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.00252161089301,
+              40.71853168195749
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": 284534,
+            "order_number": "S-385011",
+            "sos": "E",
+            "sos_new": [
+              "E",
+              "East side"
+            ],
+            "on_street": "BROADWAY",
+            "from_street": "WALKER STREET",
+            "to_street": "WHITE STREET",
+            "smo_code": "PS-154B",
+            "sign_description": "NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+            "size_description": "018 X 012",
+            "facing_direction_type": null,
+            "arrow_points": null,
+            "distance_from_intersection": 111,
+            "smo_category": "parking",
+            "smo_subtype": "Street Cleaning",
+            "last_work_date": "2016-04-29",
+            "notes": null
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.00270918950437,
+              40.71830935216055
+            ]
+          }
+        }
+      ]
+    ]
+  ]
+}

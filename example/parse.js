@@ -44,7 +44,6 @@ function answer_parking(summary) {
         let signs = val[1]
         const smo_code = smo_code_lookup['paidparking'][2]
 
-        // x = val[0]['properties']
         return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
     })
     answer = res.filter(a=>a[1].length > 0)
@@ -64,7 +63,6 @@ function answer_streetcleaning(summary) {
         
         x = val[0]['properties']
         return signs.filter(a=>a.properties.smo_code == smo_code)
-        // return x
         return signs.map(a=>a.properties.sign_description)
     })
     answer = res.flat()
@@ -75,10 +73,23 @@ function answer_streetcleaning(summary) {
     }
 }
 
-function answer_streetcleaning(r) {
+function answer_streetcleaning(summary) {
+    // Thin Wrap the result into an answer 
+    res = Object.entries(summary).map((val, index)=>{
+        let key = val[0]
+        let signs = val[1]
+        const smo_code = smo_code_lookup['streetcleaning'][0]
 
+        return [key, signs.filter(a=>a.properties.smo_code == smo_code)]
+    })
+    answer = res.filter(a=>a[1].length > 0)
+    return { 
+        "answer": answer_streetcleaningformatter(answer[0][1][1]),
+        "results": answer 
+    }
+}
+function answer_streetcleaningformatter(r) {
     return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
-
 }
 
 function main(res, address, question) {
@@ -90,30 +101,30 @@ function main(res, address, question) {
     */
 
     // ** Q1 
-    const result = aggregate_results(request_1)
-    let response = {
-        'address': "address",
-        "question": "question",
-        "result": answer_parking(result)
-    }
-    response = answer_parking(result)
+    // const result = aggregate_results(request_1)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_parking(result)
+    // }
+    // response = answer_parking(result)
     // ** Q1 END
 
 
     // ** Q2
-    // const result = aggregate_results(request_2)
-    // let response = {
-    //     'address': "address",
-    //     "question": "question",
-    //     "result": answer_streetcleaning(result)
-    // }
-    // response = answer_streetcleaning(result)
+    const result = aggregate_results(request_2)
+    let response = {
+        'address': "address",
+        "question": "question",
+        "result": answer_streetcleaning(result)
+    }
+    response = answer_streetcleaning(result)
 
     return response
 
 } 
 
-// console.log(main())
+console.log(main())
 
-console.log(JSON.stringify(main({}, "85 Broad St FL 30", 0),   null, 2))
+console.log(JSON.stringify(main({}, "400 broadway st", 0),   null, 2))
 
