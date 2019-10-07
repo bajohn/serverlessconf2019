@@ -13,8 +13,11 @@ export class AppComponent implements OnInit {
   address = '';
   curParkOption = '';
   loadInProgress = false;
-
-  constructor(private router: ActivatedRoute) {
+  results = [];
+  constructor(
+    private activeRoute: ActivatedRoute,
+    private router: Router
+  ) {
 
   }
 
@@ -26,12 +29,34 @@ export class AppComponent implements OnInit {
   search() {
     console.log('test', this.address, this.curParkOption);
     this.loadInProgress = true;
+    // this.router.navigate(
+    //   [],
+    //   {
+    //     relativeTo: this.activeRoute,
+    //     queryParams: { address: this.address, parkoption: this.curParkOption },
+    //     queryParamsHandling: 'merge', // remove to replace all query params by provided
+    //   });
+
+
+    this.results = [];
+    const res = [{
+      "on_street": "PEARL STREET",
+      "from_street": "COENTIES SLIP",
+      "to_street": "BROAD STREET",
+      "address": "86 Pearl Street",
+      "rules": [
+        'Street sweeping tuesday',
+        'No trucks'
+      ]
+    }];
+    this.results = res;
+    this.loadInProgress = false;
   }
 
   ngOnInit() {
     // sample query param
     //?address=1600 pennsylvania ave washington dc, 20001&parkoption=park
-    this.router.queryParams.subscribe((query) => {
+    this.activeRoute.queryParams.subscribe((query) => {
       console.log('QUERY', query);
       if ('address' in query) {
         this.address = query['address'];

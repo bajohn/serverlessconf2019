@@ -21,6 +21,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .header {
     background-color: #caabff;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .mat-card{
@@ -33,4 +35,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
   .page-div {
       padding: 10px;
+  }
+
+  .positive {
+      color: green;
   }
