@@ -24,5 +24,5 @@ Little As possible VTL
 Most Creatively Using in your hack
 --
 https://stdlib.com
-Nintendo Switch with it 
-Cool yeah lets do it 
+Nintendo Switch stuff
+ 
