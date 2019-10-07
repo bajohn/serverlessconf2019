@@ -32,6 +32,12 @@ function aggregate_results (payload) {
     }, {})
 }
 
+
+function answer_parking_formatter(r) {
+
+    return `The nearest parking is at ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
+
+}
 function answer_parking(summary) {
     // Thin Wrap the result into an answer 
     res = Object.entries(summary).map((val, index)=>{
@@ -45,8 +51,14 @@ function answer_parking(summary) {
         // return x
         return signs.map(a=>a.properties.sign_description)
     })
-    return res.flat()
+    answer = res.flat()
+
+    return { 
+        "answer": answer_parking_formatter(answer[0]),
+        "results": answer 
+    }
 }
+
 
 function main() {
 
