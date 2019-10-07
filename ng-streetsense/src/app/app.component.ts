@@ -15,21 +15,29 @@ export class AppComponent implements OnInit {
   answer = '';
   loadInProgress = false;
   results = null;
+  statusQueryUrl = '';
+  errorMsg = '';
+
+  parkLookup = {
+    'Street Cleaning': 0,
+    'Paid Parking': 1,
+    'Loading Zone': 2,
+    'Free Parking': 3
+  };
+
+  parkOptions: string[];
+
   constructor(
     private activeRoute: ActivatedRoute,
     private router: Router
   ) {
-
+    this.parkOptions = Object.keys(this.parkLookup);
   }
-
-  parkOptions: string[] = [
-    'park',
-    'load'
-  ];
 
   search() {
     console.log('test', this.address, this.curParkOption);
-    this.loadInProgress = true;
+
+    this.doPost();
     // this.router.navigate(
     //   [],
     //   {
@@ -39,14 +47,6 @@ export class AppComponent implements OnInit {
     //   });
 
 
-    this.results = null;
-
-    const asyncRes = this.staticResults;
-
-    this.answer = this.staticResults['answer'];
-    this.results = this.staticResults['results'];
-
-    this.loadInProgress = false;
   }
 
   ngOnInit() {
@@ -71,6 +71,70 @@ export class AppComponent implements OnInit {
 
 
   }
+
+  async doPost() {
+    this.loadInProgress = true;
+    this.results = null;
+
+    // const asyncRes = this.staticResults;
+
+
+    const apiUrl = 'https://serverlessconfhack.azurewebsites.net/api/CanPark';
+    const res = await fetch(apiUrl, {
+      method: 'POST',
+      body: JSON.stringify({
+        address: this.address,
+        question: this.parkLookup[this.curParkOption]
+      })
+    });
+
+    const jsonRes = await res.json();
+
+    console.log(jsonRes);
+    this.statusQueryUrl = jsonRes['statusQueryGetUri'];
+
+    this.answer = this.staticResults['answer'];
+    this.results = this.staticResults['results'];
+    console.log('results?', this.results);
+    this.loadInProgress = false;
+    //this.pollQueryUrl()
+
+    // from: result     poll this: statusQueryGetUrl
+
+    // runtimeStatus: "Failed" -> error
+    // runtimeStatus: "Completed" -> success
+    // output: big json block
+
+
+  }
+
+  async pollQueryUrl() {
+
+    const res = await fetch(this.statusQueryUrl, {
+      method: 'GET'
+    });
+
+    const resJson = await res.json();
+    if (resJson['runtimeStatus'] === 'Completed') {
+      const output = resJson['output'];
+      this.answer = output['answer'];
+      this.results = output['results'];
+      this.loadInProgress = false;
+    }
+    else if (resJson['runtimeStatus'] === 'Failed') {
+      this.errorMsg = 'Error receiving data';
+      this.loadInProgress = false;
+    }
+    else {
+      setTimeout(this.pollQueryUrl.bind(this), 1000);
+    }
+
+
+
+
+  }
+
+
   staticResults = {
     "answer": "The street schedule is NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <->   BROADWAY between the intersection of CANAL STREET and WALKER STREET",
     "results": [
