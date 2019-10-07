@@ -93,17 +93,15 @@ export class AppComponent implements OnInit {
     console.log(jsonRes);
     this.statusQueryUrl = jsonRes['statusQueryGetUri'];
 
-    this.answer = this.staticResults['answer'];
-    this.results = this.staticResults['results'];
-    console.log('results?', this.results);
-    this.loadInProgress = false;
-    //this.pollQueryUrl()
+    // static, for testing: 
+    // this.answer = this.staticResults['answer'];
+    // this.results = this.staticResults['results'];
+    // console.log('results?', this.results);
+    // this.loadInProgress = false;
 
-    // from: result     poll this: statusQueryGetUrl
+    // dynamic server endpoint: 
+    this.pollQueryUrl()
 
-    // runtimeStatus: "Failed" -> error
-    // runtimeStatus: "Completed" -> success
-    // output: big json block
 
 
   }
