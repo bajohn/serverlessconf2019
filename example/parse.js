@@ -106,11 +106,14 @@ function answer_loadingzone(summary) {
         const smo_code = smo_code_lookup['loadingzone'][2]
         console.log(smo_code)
 
-        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+        return {
+            "friendly_name": key, 
+            "rules": signs.filter(a=>a.properties.smo_subtype == smo_code) 
+        }
     })
-    answer = res.filter(a=>a[1].length > 0)
+    answer = res.filter(a=>a.rules.length > 0)
     return { 
-        "answer": answer_loadingzone_formatter(answer[0][1][1]),
+        "answer": answer_loadingzone_formatter(answer[0].rules[1]),
         "results": answer 
     }
 }
