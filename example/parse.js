@@ -6,7 +6,7 @@ const request_3 = require('./32-monroe-st.json');
 
 
 
-console.log(request_1['features'][0])
+// console.log(request_1['features'][0])
 
 
 
@@ -18,17 +18,35 @@ function aggregate_results (payload) {
         key = slugify(key);
         // console.log(key)
         if (a.hasOwnProperty(key)) {
-            a[key].append(b);
+            a[key].push(b);
+        } else {
+          a[key] = [b]
         }
-        b[key] = [b]
+        // console.log(a)
         return a
     }, {})
+}
+
+function answer_parking(summary) {
+    // Thin Wrap the result into an answer 
+    res = Object.entries(summary).map((val, index)=>{
+        let key = val[0]
+        let signs = val[1]
+
+        
+        x = val[0]['properties']
+        
+        // return x
+        return signs.map(a=>a.properties.sign_description)
+    })
+    return res
 }
 
 
 function main() {
 
-    return aggregate_results(request_1)
+    const result = aggregate_results(request_1)
+    return answer_parking(result)
 }
 
 
