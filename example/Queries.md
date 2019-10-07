@@ -1,6 +1,9 @@
-Query string for angular- autofills and submits form repeatably:
+##Query string for angular- autofills and submits form repeatably:
 
 ourappurl.com?address=1600 pennsylvania ave washington dc, 20001&parkoption=park
+
+
+## Query for NYC DOT
 
 
 Authorization: Basic cHVibGljOkQwdFB1NmwxY0BwMQ==
