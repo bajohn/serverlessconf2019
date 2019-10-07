@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class AppComponent implements OnInit {
-  address = 'address!';
+  address = '';
   curParkOption = '';
   parkOptions: parkoption[] = [
     {

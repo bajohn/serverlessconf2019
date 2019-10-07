@@ -1,0 +1,16 @@
+.card-header {
+    padding: 5px !important;
+    background-color: #caabff;
+}
+
+.mat-card{
+    padding:5px !important;
+  }
+  
+  .mat-card-content{
+    padding:5px !important;
+  }
+
+  .page-div {
+      padding: 10px;
+  }
