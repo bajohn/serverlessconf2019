@@ -2,6 +2,19 @@ Authorization: Basic cHVibGljOkQwdFB1NmwxY0BwMQ==
 
 https://nycdotsigns.net/-74.01105380000001:40.7079934/parking,21/182
 
+
+General Aggregation in Node.js
+
+            "on_street":"BROADWAY",
+            "from_street":"CANAL STREET",
+            "to_street":"WALKER STREET",
+
+- Map over these attributes in Queries
+- aggregate queries by SMO_code
+- filter by SMO_code based on question
+- return result back to it
+
+
 Questions
 ---
 Q: My Car is parked at X -- Give me the information about X place
@@ -50,6 +63,9 @@ Q: Where are there loading zones for driver?
                 "notes": null
             },
 
+
+Q: Where can I find free parking around X
+ (question is find streets around you and keep going until you find street with only sweep information)'
 
 
 
