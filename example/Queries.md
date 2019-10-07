@@ -6,6 +6,9 @@ Questions
 ---
 What is the street sweeping schedule for {x}? 
 
+look for `smo_code` on "smo_subtype":"Street Cleaning", rules involved are "sign_description":"NO PARKING (SANITATION BROOM SYMBOL) MOON & STARS (SYMBOLS) TUESDAY FRIDAY 2AM-6AM <-> ",
+
+
 
 Where can I paid parking?
 
