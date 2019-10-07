@@ -1,29 +1,3 @@
-answer {
-  type: 'Feature',
-  properties: {
-    id: 10250961,
-    order_number: 'P-01262415',
-    sos: 'E',
-    sos_new: [ 'E', 'East side' ],
-    on_street: 'PEARL STREET',
-    from_street: 'COENTIES SLIP',
-    to_street: 'BROAD STREET',
-    smo_code: 'PS-279C',
-    sign_description: '3 HMP COMMERCIAL VEHICLES ONLY 7AM-5PM EXCEPT SUNDAY <-> ',
-    size_description: '018 X 024',
-    facing_direction_type: null,
-    arrow_points: null,
-    distance_from_intersection: 64,
-    smo_category: 'parking',
-    smo_subtype: 'Metered Parking',
-    last_work_date: '2017-08-23',
-    notes: ''
-  },
-  geometry: {
-    type: 'Point',
-    coordinates: [ -74.01086144579222, 40.70363851083938 ]
-  }
-}
 {
   "answer": "The nearest parking is at PEARL STREET between the intersection of COENTIES SLIP and BROAD STREET",
   "results": [

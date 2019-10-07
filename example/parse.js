@@ -9,25 +9,24 @@ const request_3 = require('./32-monroe-st.json');
 // console.log(request_1['features'][0])
 
 
-// question, Name, Description / Copy
+// question, Name, Subtype, Description / Copy
 const smo_code_lookup = {
-     "streetcleaning": ["Street Cleaning", "When are the streets sweeped"], 
-     "paidparking": ["PS-9A", "Paid parking "]
+     "streetcleaning": ["PS-154B", "Street Cleaning","When are the streets sweeped"], 
+     "paidparking": [["PS-9A"], "", "Metered Parking"],
+     "loadingzone": [["PS-279C", "PS-153E"], ""]
 }
 
 function aggregate_results (payload) {
     const features = payload['features']
     return features.reduce((a, b)=> {
-        // console.log(b)
         let key = `${b.properties.on_street}_${b.properties.from_street}_${b.properties.to_street}`
         key = slugify(key);
-        // console.log(key)
         if (a.hasOwnProperty(key)) {
             a[key].push(b);
         } else {
           a[key] = [b]
         }
-        // console.log(a)
+
         return a
     }, {})
 }
@@ -43,7 +42,24 @@ function answer_parking(summary) {
     res = Object.entries(summary).map((val, index)=>{
         let key = val[0]
         let signs = val[1]
-        const smo_code = smo_code_lookup['paidparking'][0]
+        const smo_code = smo_code_lookup['paidparking'][2]
+
+        // x = val[0]['properties']
+        return [key, signs.filter(a=>a.properties.smo_subtype == smo_code)]
+    })
+    answer = res.filter(a=>a[1].length > 0)
+    return { 
+        "answer": answer_parking_formatter(answer[0][1][1]),
+        "results": answer 
+    }
+}
+
+function answer_streetcleaning(summary) {
+    // Thin Wrap the result into an answer 
+    res = Object.entries(summary).map((val, index)=>{
+        let key = val[0]
+        let signs = val[1]
+        const smo_code = smo_code_lookup['streetcleaning'][0]
 
         
         x = val[0]['properties']
@@ -54,17 +70,50 @@ function answer_parking(summary) {
     answer = res.flat()
 
     return { 
-        "answer": answer_parking_formatter(answer[0]),
+        "answer": answer_streetcleaning(answer[0]),
         "results": answer 
     }
 }
 
+function answer_streetcleaning(r) {
 
-function main() {
+    return `The street schedule is ${r.properties.sign_description}  ${r.properties.on_street} between the intersection of ${r.properties.from_street} and ${r.properties.to_street}`
 
-    const result = aggregate_results(request_1)
-    return answer_parking(result)
 }
 
+function main(res, address, question) {
 
-console.log(JSON.stringify(main(),   null, 2))
+    /*
+    Res = @JSON proxy from nycdot.net
+    Address = @String from Google
+    Question = ENUM of question types 
+    */
+
+    // ** Q1 
+    const result = aggregate_results(request_1)
+    let response = {
+        'address': "address",
+        "question": "question",
+        "result": answer_parking(result)
+    }
+    response = answer_parking(result)
+    // ** Q1 END
+
+
+    // ** Q2
+    // const result = aggregate_results(request_2)
+    // let response = {
+    //     'address': "address",
+    //     "question": "question",
+    //     "result": answer_streetcleaning(result)
+    // }
+    // response = answer_streetcleaning(result)
+
+    return response
+
+} 
+
+// console.log(main())
+
+console.log(JSON.stringify(main({}, "85 Broad St FL 30", 0),   null, 2))
+
