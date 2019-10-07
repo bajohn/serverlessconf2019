@@ -1,8 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+*/
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
 
 
 .card {
@@ -10,3 +14,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin:30px;
 }
 
+.card-header {
+    padding: 5px !important;
+
+}
+
+.header {
+    background-color: #caabff;
+}
+
+.mat-card{
+    padding:5px !important;
+  }
+  
+  .mat-card-content{
+    padding:5px !important;
+  }
+
+  .page-div {
+      padding: 10px;
+  }

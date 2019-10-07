@@ -12,21 +12,25 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   address = '';
   curParkOption = '';
-  parkOptions: parkoption[] = [
-    {
-      value: 'park',
-      label: 'park'
-    },
-    {
-      value: 'load',
-      label: 'load'
-    },
+
+
+
+  parkOptions: string[] = [
+    'park',
+    'load'
   ];
 
+  search() {
+    console.log('test', this.address, this.curParkOption);
+  }
+  cb(event) {
+    console.log('??', event);
+  }
   ngOnInit() {
 
   }
 }
+
 
 interface parkoption {
   value: string,

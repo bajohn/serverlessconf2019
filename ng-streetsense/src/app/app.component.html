@@ -1,5 +1,5 @@
-<div class="page-div">
-  <h1> Street Sense</h1>
+<div class="header">
+  <h1 class="page-div"> Street Sense</h1>
 </div>
 
 <div class="page-div">
@@ -17,9 +17,9 @@
       <div>
         <mat-form-field>
           <mat-label></mat-label>
-          <mat-select>
-            <mat-option *ngFor="let option of parkOptions" [(value)]="option.value">
-              {{option.label}}
+          <mat-select [(value)]="curParkOption">
+            <mat-option *ngFor="let option of parkOptions" [value]="option">
+              {{option}}
             </mat-option>
           </mat-select>
         </mat-form-field>
@@ -35,13 +35,15 @@
             <input matInput [(value)]="address">
           </mat-form-field>
         </form>
+      </div>
+      <div>
+        <button (click)="search($event)" mat-raised-button color="primary">Search</button>
+
 
       </div>
 
     </mat-card-content>
     <mat-card-actions>
-      <!-- <button mat-button>LIKE</button>
-          <button mat-button>SHARE</button> -->
     </mat-card-actions>
   </mat-card>
 </div>
