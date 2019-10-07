@@ -10,7 +10,12 @@ import { MatInputModule } from '@angular/material/input';
 // import {MatMenuModule} from '@angular/material/menu';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { Routes, RouterModule } from '@angular/router';
 
+const appRoutes: Routes = [
+  { path: '**', component: AppComponent }
+]
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { MatButtonModule } from '@angular/material/button';
     MatSelectModule,
     MatInputModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressSpinnerModule,
+    RouterModule.forRoot(
+      appRoutes,
+     // { enableTracing: true } // <-- debugging purposes only
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]

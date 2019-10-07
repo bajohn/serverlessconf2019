@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,8 +12,11 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   address = '';
   curParkOption = '';
+  loadInProgress = false;
 
+  constructor(private router: ActivatedRoute) {
 
+  }
 
   parkOptions: string[] = [
     'park',
@@ -22,12 +25,13 @@ export class AppComponent implements OnInit {
 
   search() {
     console.log('test', this.address, this.curParkOption);
+    this.loadInProgress = true;
   }
-  cb(event) {
-    console.log('??', event);
-  }
-  ngOnInit() {
 
+  ngOnInit() {
+    this.router.queryParams.subscribe((query) => {
+      console.log('QUERY', query);
+    });
   }
 }
 
