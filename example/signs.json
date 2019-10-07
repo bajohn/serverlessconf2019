@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 18,
+            "description": "regulatory",
+            "name": "Regulatory Sign"
+        },
+        {
+            "id": 19,
+            "description": "warning",
+            "name": "Warning Sign"
+        },
+        {
+            "id": 20,
+            "description": "guide",
+            "name": "Guide Sign"
+        },
+        {
+            "id": 21,
+            "description": "parking",
+            "name": "Street Side Sign"
+        },
+        {
+            "id": 22,
+            "description": "streetname",
+            "name": "Street Name Sign"
+        },
+        {
+            "id": 23,
+            "description": "other",
+            "name": "Other Sign"
+        }
+    ]
+}
