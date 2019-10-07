@@ -67,4 +67,4 @@ function main() {
 }
 
 
-console.log(JSON.stringify(main()),  null, 2)
+console.log(JSON.stringify(main(),   null, 2))
