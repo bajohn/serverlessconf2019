@@ -23,7 +23,7 @@ Q: Where can I paid parking?
 - Your closest to X location is "{on_street}" between "{from_street}" and "to{street}} - Alternatives in include the below [Paginated set of results form this page]
 
 Q: Where are there loading zones for driver? 
-- Query on "{PS-279C}" are commercial zones for drivers to load their vehicles in this are. Alternatives include in the below [Paginated set of results form this page]
+- Query on "{PS-279C}" and "PS-153E" are commercial zones for drivers to load their vehicles in this are. Alternatives include in the below [Paginated set of results form this page]
 
         {
             "type": "Feature",
