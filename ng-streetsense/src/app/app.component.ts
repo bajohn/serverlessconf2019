@@ -10,6 +10,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 
 export class AppComponent implements OnInit {
+  readonly useStaticData = true; // for testing purposes, use static data at bottom of this file
   address = '';
   curParkOption = '';
   answer = '';
@@ -93,14 +94,20 @@ export class AppComponent implements OnInit {
     console.log(jsonRes);
     this.statusQueryUrl = jsonRes['statusQueryGetUri'];
 
+    if(this.useStaticData) {
     // static, for testing: 
-    // this.answer = this.staticResults['answer'];
-    // this.results = this.staticResults['results'];
-    // console.log('results?', this.results);
-    // this.loadInProgress = false;
+    this.answer = this.staticResults['answer'];
+    this.results = this.staticResults['results'];
+    console.log('results?', this.results);
+    this.loadInProgress = false;
 
+    } else{
+      
     // dynamic server endpoint: 
-    this.pollQueryUrl()
+      this.pollQueryUrl()
+    }
+
+  
 
 
 
